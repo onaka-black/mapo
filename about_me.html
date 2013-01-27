@@ -3,6 +3,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<LINK href="css/common.css" rel="stylesheet" type="text/css">
 	<LINK href="css/about_me.css" rel="stylesheet" type="text/css">
 	<title>まぽよ育成日記</title>
 </head>
@@ -14,10 +15,10 @@
 		
 		<div id="menuList">
 		    <ul id="menu">
-				<li>blog</li>
-				<li>about me</li>
-				<li>other</li>
-				<li>sample</li>
+				<li><a href="index.html">blog</a></li>
+				<li><a href="about_me.html">about me</a></li>
+				<li><a href="about_me.html">other</a></li>
+				<li><a href="about_me.html">sample</a></li>
 			</ul>
 		</div>
 		
@@ -29,13 +30,24 @@
 				<h2 class="title">abjout me</h2>
 				<div class="about_me_outer">
 					<div class="about_me_inner">
-					
-						<img src="img/me.png">
-						
-						<div class="profile">
-							<h3 class="profile_item">
-								test
-							</h3>
+						<div id="photo">
+							<img src="img/me.png">
+						</div>
+						<div id="profile">
+							<table>
+								<tr>
+									<td class="profile_question">name</td>
+									<td class="profile_answer">shigeto_sato</td>
+								</tr>
+								<tr>
+									<td class="profile_question">twitter</td>
+									<td class="profile_answer">onaka_black</td>
+								</tr>
+								<tr>
+									<td class="profile_question"></td>
+									<td class="profile_answer"></td>
+								</tr>
+							</table>
 						</div>
 					</div>
 				</div>
@@ -44,12 +56,169 @@
 			
 			<div id="side">
 				<div id="calender">
-					calender
+					<h2 class="side_title">
+						calender
+					</h2>
+					<ul class="calender_header">
+						<li id="calender_back">
+							<<
+						</li>
+						<li id="calender_now">
+							2013/01
+						</li>
+						<li id="calender_forward">
+							>>
+						</li>
+					</ul>
+					<ul class="calender_week">
+						<li class="calender_week">
+							Sun
+						</li>
+						<li class="calender_week">
+							Mon
+						</li>
+						<li class="calender_week">
+							Tue
+						</li>
+						<li class="calender_week">
+							Wed
+						</li>
+						<li class="calender_week">
+							Thu
+						</li>
+						<li class="calender_week">
+							Fri
+						</li>
+						<li class="calender_week">
+							Sat
+						</li>
+					</ul>
+					<ul class="calender_week">
+						<li class="calender_week">
+							&nbsp;
+						</li>
+						<li class="calender_week">
+							&nbsp;
+						</li>
+						<li class="calender_week">
+							1
+						</li>
+						<li class="calender_week">
+							2
+						</li>
+						<li class="calender_week">
+							3
+						</li>
+						<li class="calender_week">
+							4
+						</li>
+						<li class="calender_week">
+							5
+						</li>
+					</ul>
+					<ul class="calender_week">
+						<li class="calender_week">
+							6
+						</li>
+						<li class="calender_week">
+							7
+						</li>
+						<li class="calender_week">
+							8
+						</li>
+						<li class="calender_week">
+							9
+						</li>
+						<li class="calender_week">
+							10
+						</li>
+						<li class="calender_week">
+							11
+						</li>
+						<li class="calender_week">
+							12
+						</li>
+					</ul>
+					<ul class="calender_week">
+						<li class="calender_week">
+							13
+						</li>
+						<li class="calender_week">
+							14
+						</li>
+						<li class="calender_week">
+							15
+						</li>
+						<li class="calender_week">
+							16
+						</li>
+						<li class="calender_week">
+							17
+						</li>
+						<li class="calender_week">
+							18
+						</li>
+						<li class="calender_week">
+							19
+						</li>
+					</ul>
+					<ul class="calender_week">
+						<li class="calender_week">
+							20
+						</li>
+						<li class="calender_week">
+							21
+						</li>
+						<li class="calender_week">
+							22
+						</li>
+						<li class="calender_week">
+							23
+						</li>
+						<li class="calender_week">
+							24
+						</li>
+						<li class="calender_week">
+							25
+						</li>
+						<li class="calender_week">
+							26
+						</li>
+					</ul>
+					<ul class="calender_week">
+						<li class="calender_week">
+							27
+						</li>
+						<li class="calender_week">
+							28
+						</li>
+						<li class="calender_week">
+							29
+						</li>
+						<li class="calender_week">
+							30
+						</li>
+						<li class="calender_week">
+							31
+						</li>
+						<li class="calender_week">
+							
+						</li>
+						<li class="calender_week">
+							
+						</li>
+					</ul>
 				</div>
-				<div id="backNumber">
+				<div id="recent_entries">
+					<h2 class="side_title">
+						recent entries
+					</h2>
 					back
 				</div>
-				<div id="link">
+				<div id="categories">
+					<h2 class="side_title">
+						categories
+					</h2>
 					link
 				</div>
 			</div>
